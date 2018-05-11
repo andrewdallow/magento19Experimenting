@@ -124,6 +124,8 @@ skin/frontend/default/german/
 skin/frontend/default/iphone/
 skin/frontend/default/modern/
 skin/frontend/enterprise
+skin/frontend/andrewTheme/*
+app/design/frontend/andrewTheme/*
 skin/install/
 var/
 media/*
