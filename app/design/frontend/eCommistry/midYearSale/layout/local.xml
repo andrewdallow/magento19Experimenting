@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!--
+/**
+ * Mid Year Sale theme local file.
+ *
+ * @category   layout
+ * @package    eCommistry_local
+ * @license    http://framework.zend.com/license   BSD License
+ */
+-->
 <layout>
     <default>
         <remove name="paypal.partner.right.logo"/>
