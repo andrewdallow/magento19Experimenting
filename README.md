@@ -16,6 +16,8 @@ which displays some info about weekly sales as well as removing the base themes 
  displayed by changing the text and moving the sale.phtml block to above the Home page content, displaying
  like a banner.
  
+ Both themes also add their own update.css file.
+ 
  It should be noted that creating a local.xml file in the second theme completely overrides the default 
  themes local.xml file, so any changes you want to persist from the default theme need to be copied to 
  new theme otherwise they will not be used. This can cause code duplication so it is a good idea to only 
