@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <layout>
     <default>
-        <remove name="paypal.partner.right.logo"/>
         <reference name="right">
             <remove name="right.poll"/>
-            <block type="core/template" template="sale/sale.phtml"/>
+            <block type="core/template" template="sale/sale.phtml" before="right.poll"/>
+            <block type="core/template" template="creditcards/creditCards.phtml" />
         </reference>
         <reference name="head">
             <action method="addItem">

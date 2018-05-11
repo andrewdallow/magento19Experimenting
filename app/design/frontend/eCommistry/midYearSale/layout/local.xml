@@ -4,6 +4,7 @@
         <remove name="paypal.partner.right.logo"/>
         <reference name="right">
             <remove name="right.poll"/>
+            <block type="core/template" template="creditcards/creditCards.phtml" />
         </reference>
         <reference name="content">
             <block type="core/template" name="ecommistry_sale" template="sale/sale.phtml" before="page_content_heading"/>

@@ -17,3 +17,11 @@
     font-size: 18px;
     color: red;
 }
+
+.creditCards {
+   padding-top: 10px;
+}
+
+.creditCards img {
+    width: 100%;
+}
