@@ -1,0 +1,19 @@
+.sale {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.sale h1 {
+    color: orange;
+}
+
+.saleCond {
+    font-size: 10px;
+    color: grey;
+    padding-top: 10px;
+}
+
+.saleDigit {
+    font-size: 18px;
+    color: red;
+}

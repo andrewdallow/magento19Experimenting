@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <default>
+        <remove name="paypal.partner.right.logo"/>
+        <reference name="right">
+            <remove name="right.poll"/>
+        </reference>
+        <reference name="content">
+            <block type="core/template" name="ecommistry_sale" template="sale/sale.phtml" before="page_content_heading"/>
+
+        </reference>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/updates.css</name>
+                <params/>
+                <if/>
+            </action>
+        </reference>
+    </default>
+</layout>
