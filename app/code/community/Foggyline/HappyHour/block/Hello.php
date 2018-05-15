@@ -7,7 +7,7 @@
  * @category   Zend
  * @package    Zend_Foggyline
  * @subpackage HappyHour
- * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc.
  * @license    http://framework.zend.com/license   BSD License
  * @version    Release: @package_version@
  * @link       http://framework.zend.com/package/PackageName

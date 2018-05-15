@@ -17,6 +17,27 @@
         </routers>
     </frontend>
     <global>
+        <models>
+            <foggyline_happyhour>
+                <class>Foggyline_HappyHour_Model</class>
+                <resourceModel>foggyline_happyhour_resource</resourceModel>
+            </foggyline_happyhour>
+            <foggyline_happyhour_resource>
+                <class>Foggyline_HappyHour_Model_Resource</class>
+                <entities>
+                    <user>
+                        <table>foggyline_happyhour_user</table>
+                    </user>
+                </entities>
+            </foggyline_happyhour_resource>
+        </models>
+        <resources>
+            <foggyline_happyhour_setup>
+                <setup>
+                    <module>Foggyline_HappyHour</module>
+                </setup>
+            </foggyline_happyhour_setup>
+        </resources>
         <blocks>
             <foggyline_happyhour>
                 <class>Foggyline_HappyHour_Block</class>
