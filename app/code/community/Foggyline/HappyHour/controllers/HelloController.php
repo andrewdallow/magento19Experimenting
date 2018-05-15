@@ -1,15 +1,13 @@
 <?php
 /**
- * Short description for file
- *
- * Long description for file (if any)...
+ * Magento Controller for displaying Hello World.
  *
  * @category   Zend
  * @package    Zend_Foggyline
  * @subpackage HappyHour
- * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc.
+ * @copyright  Copyright (c) 2018 ecommistry (http://www.ecommistry.com)
  * @license    http://framework.zend.com/license   BSD License
- * @version    Release: @package_version@
+ * @version    Release: 1.0
  * @link       http://framework.zend.com/package/PackageName
  */
 

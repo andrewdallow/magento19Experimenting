@@ -1,14 +1,10 @@
 <?php
 /**
- * Short description for file
- *
- * Long description for file (if any)...
- *
- * LICENSE: Some license information
+ * The Resource class for the User Model.
  *
  * @category   Zend
- * @package    HappyHour\Model\Resource
- * @subpackage Model_Foggyline_HappyHour_Resource_User
+ * @package    Zend_Foggyline
+ * @subpackage HappyHour
  * @copyright  Copyright (c) 2018 ecommistry (http://www.ecommistry.com)
  * @license    http://framework.zend.com/license   BSD License
  * @version    1.0

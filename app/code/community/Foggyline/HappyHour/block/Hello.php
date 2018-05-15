@@ -1,13 +1,11 @@
 <?php
 /**
- * Short description for file
- *
- * Long description for file (if any)...
+ * The Hello Magento block.
  *
  * @category   Zend
  * @package    Zend_Foggyline
  * @subpackage HappyHour
- * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc.
+ * @copyright  Copyright (c) 2018 ecommistry (http://www.ecommistry.com)
  * @license    http://framework.zend.com/license   BSD License
  * @version    Release: @package_version@
  * @link       http://framework.zend.com/package/PackageName

@@ -1,16 +1,14 @@
 <?php
 /**
- * Short description for file
+ * Install script for a simple table holding user_id, firstname, and lastname.
  *
- * Long description for file (if any)...
- *
- * LICENSE: Some license information
  *
  * @category   Zend
- * @package    ${NAME}
+ * @package    Zend_Foggyline
+ * @subpackage HappyHour
  * @copyright  Copyright (c) 2018 ecommistry (http://www.ecommistry.com)
  * @license    http://framework.zend.com/license   BSD License
- * @version    1.0
+ * @version    Release: 1.0
  * @link       http://framework.zend.com/package/PackageName
  * @since      File available since Release 1.0
  */

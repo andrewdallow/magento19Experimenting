@@ -1,13 +1,9 @@
 <?php
 /**
- * Short description for file
- *
- * Long description for file (if any)...
- *
- * LICENSE: Some license information
+ * The Model for the User Entity
  *
  * @category   Zend
- * @package    Foggyline
+ * @package    Zend_Foggyline
  * @subpackage HappyHour
  * @copyright  Copyright (c) 2018 ecommistry (http://www.ecommistry.com)
  * @license    http://framework.zend.com/license   BSD License
