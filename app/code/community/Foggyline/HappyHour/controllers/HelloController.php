@@ -54,4 +54,10 @@ class Foggyline_HappyHour_HelloController
             echo "$firstname $lastname<br />";
         }
     }
+    public function testHelperAction()
+    {
+        $helper = Mage::helper('foggyline_happyhour');
+
+        echo $helper->help();
+    }
 }

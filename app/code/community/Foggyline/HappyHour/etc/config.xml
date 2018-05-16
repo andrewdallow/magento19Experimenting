@@ -53,5 +53,22 @@
                 <class>Foggyline_HappyHour_Block</class>
             </foggyline_happyhour>
         </blocks>
+        <helpers>
+            <foggyline_happyhour>
+                <class>Foggyline_HappyHour_Helper</class>
+            </foggyline_happyhour>
+        </helpers>
     </global>
+    <crontab>
+        <jobs>
+            <foggyline_happyhour_ordersToFulfilment>
+                <schedule>
+                    <cron_expr>* * * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>foggyline_happyhour/service::ordersToFulfilment</model>
+                </run>
+            </foggyline_happyhour_ordersToFulfilment>
+        </jobs>
+    </crontab>
 </config>
