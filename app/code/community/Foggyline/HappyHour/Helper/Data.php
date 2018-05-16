@@ -1,7 +1,8 @@
 <?php
 /**
- * Helper Class
+ * Short description for file
  *
+ * Long description for file (if any)...
  *
  * @category   Zend
  * @package    Zend_Foggyline
@@ -12,10 +13,12 @@
  * @link       http://framework.zend.com/package/PackageName
  */
 
-class Foggyline_HappyHour_Helper_Data
+class Foggyline_HappyHour_Helper_Data extends Mage_Core_Helper_Data
 {
-    public function help()
+    const XML_PATH_CUSTOM_MESSAGE = 'foggyline_happyhour/settings/custom_message';
+
+    public function getCustomMessage($storestore = null)
     {
-        echo 'Don\'t ask me';
+        return Mage::getStoreConfig(self::XML_PATH_CUSTOM_MESSAGE, $store);
     }
 }

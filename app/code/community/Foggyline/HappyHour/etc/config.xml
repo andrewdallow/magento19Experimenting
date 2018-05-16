@@ -71,4 +71,11 @@
             </foggyline_happyhour_ordersToFulfilment>
         </jobs>
     </crontab>
+    <default>
+        <foggyline_happyhour>
+            <settings>
+                <custom_message><![CDATA[Hello World]]></custom_message>
+            </settings>
+        </foggyline_happyhour>
+    </default>
 </config>

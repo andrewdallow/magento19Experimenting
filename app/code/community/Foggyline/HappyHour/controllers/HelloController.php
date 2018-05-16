@@ -56,8 +56,14 @@ class Foggyline_HappyHour_HelloController
     }
     public function testHelperAction()
     {
-        $helper = Mage::helper('foggyline_happyhour');
+        $helper = Mage::helper('foggyline_happyhour/demo');
 
         echo $helper->help();
     }
+
+    public function helperTestAction()
+    {
+        echo Mage::helper('foggyline_happyhour')->getCustomMessage();
+    }
+
 }
